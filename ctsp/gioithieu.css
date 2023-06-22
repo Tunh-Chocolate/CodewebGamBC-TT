@@ -1,0 +1,40 @@
+#div1{
+	width: 100%;
+	height: 340px;
+	background-image: url(https://cdn.akamai.steamstatic.com/steam/clusters/about_i18n_assets/about_i18n_assets_0/feature_reviews_header_english.jpg?t=1636143670);
+	background-repeat: no-repeat;
+	
+}
+body{
+	background-color: #304457;
+
+}.footer1{
+	width: 100%;
+    height: 81px;
+    margin-top: 20px;
+}
+.footer1{
+	width: 100%;
+    height: 81px;
+ 
+}a
+{
+	color:#ffffff;
+	text-decoration:none;
+	padding:0 1px 0 1px;
+	background-color:inherit;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+p
+{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}.footer
+{
+	padding:22px 0 22px 0; background-color:#000;
+	color:#CCCCCC; line-height:18px;
+	text-align: center;
+}

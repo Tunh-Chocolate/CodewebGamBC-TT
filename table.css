@@ -1,0 +1,151 @@
+#preloader {
+    overflow: hidden;
+    background-image: url("admin/images/banner-04.jpg");
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999999;
+    color: #fff;
+  }
+  
+  #preloader .jumper {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #preloader .jumper > div {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: absolute;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: jumper 2s 0s linear infinite;
+    animation: jumper 2s 0s linear infinite;
+  }
+  
+  #preloader .jumper > div:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  #preloader .jumper > div:nth-child(3) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  @-webkit-keyframes jumper {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes jumper {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+      table,tr,td{
+        
+      }
+      table{
+        width: 110%;
+        border-spacing:100px 20px;
+      }
+      h1{
+        text-align: center;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 3px black;
+      }
+      .readmore{
+        text-align: center;
+        width: 93px;
+        height: 1.8rem;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 6px;
+        border: 1px solid lightblue;
+      }
+      .readmore:hover{
+        box-shadow: 3px 3px 5px black;
+      }
+      a:hover{
+        text-decoration: none;
+        color: white;
+      }
+      .leftbox{
+        border: 1px solid white;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        background-image: linear-gradient(
+        45deg, lightblue, #001d4c);
+        background-color: #1a222c82;
+        color: snow;
+        box-shadow: 1px 1px 5px black;
+        background-image: url('./images/bg-game-1.jpg');
+        background-repeat: no-repeat;
+  background-size: cover;
+        cursor: pointer;
+      }
+      .leftbox:hover{
+        box-shadow: 6px 5px 6px black;
+        border:1px solid #c2e1f8;
+      }
+      img{
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+      }
+      img:hover{
+        width: 160px;
+        height: 160px;
+        z-index: 1;
+      }
+      bf{
+        color: #d8951c;
+        font-weight: bold;
+      }
+      vs{
+    margin-top: 3px;
+    height: 70px;
+    font-size: 12px;
+    line-height: 1.16667;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: .009em;
+    font-family: system-ui;
+}
